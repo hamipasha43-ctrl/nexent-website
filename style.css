@@ -1,0 +1,57 @@
+:root{
+    --primary :#18191F;
+    --greencolor:green;
+
+}
+
+
+
+@font-face {
+    font-family: "Inter";
+    src: url("./font/");
+}
+
+
+.blackcolor{
+    color: var(--primary)!important;
+}
+
+.textgreen{
+    color: var(--greencolor);
+}
+
+.textgreen:hover{
+    color: var(--greencolor);
+}
+.bggreen{
+    background-color: var(--greencolor);
+
+}
+.bggreen:hover{
+    background-color: var(--greencolor);
+}
+
+
+.bg-hero{
+    background-color: #F5F7FA;
+
+}
+.customgap{
+    gap: 100px;
+}
+
+
+
+
+
+
+
+
+
+@media screen and(max-width:576px) {
+    .size{
+        width: 50%;
+    }
+}
+    
+}
