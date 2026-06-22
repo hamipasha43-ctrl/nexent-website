@@ -13,11 +13,11 @@
 
 
 .blackcolor{
-    color: var(--primary)!important;
+    color: var(--primary)!important; 
 }
 
 .textgreen{
-    color: var(--greencolor);
+    color: var(--greencolor) !important;
 }
 
 .textgreen:hover{
