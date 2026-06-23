@@ -6,9 +6,10 @@
 
 
 
-@font-face {
-    font-family: "Inter";
-    src: url("./font/");
+@font-face{
+    font-family:"inter";
+    src: url("./fonts/Inter_24pt-SemiBold.ttf");
+}
 }
 
 
@@ -31,6 +32,9 @@
     background-color: var(--greencolor);
 }
 
+.font{
+    font-family: inter;
+}
 
 .bg-hero{
     background-color: #F5F7FA;
